@@ -1,0 +1,12 @@
+name = "idkaboutbytes/maid"
+version = "1.1.1"
+description = "Maid package for Roblox."
+license = "MIT"
+authors = ["idkaboutbytes"]
+repository = "https://github.com/idkaboutbytes/maid"
+includes = ["pesde.toml", "README.md", "CHANGELOG.md", "default.project.json", "src/**/*.luau"]
+
+[target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
